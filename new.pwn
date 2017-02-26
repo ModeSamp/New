@@ -89,7 +89,7 @@ public OnPlayerText(playerid, text[])
 public OnPlayerCommandText(playerid, cmdtext[])
 {
 	
-    	if (strcmp("/pozharnik", cmdtext, true, 10) == 0)
+    	if (strcmp("/pozharnik", cmdtext, true, 10) == 0) // нармальна всё тут задана!!!1
 	{    SetPlayerSkin(playerid, 277);  }
 	if (strcmp("/yanchafermer", cmdtext, true, 10) == 0)
 	{    SetPlayerSkin(playerid, 158);  }
